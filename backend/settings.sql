@@ -1,0 +1,3 @@
+CREATE DATABASE blogapp;
+CREATE USER blogappuser WITH PASSWORD 'blogapp';
+GRANT ALL PRIVILEGES ON DATABASE blogapp TO blogappuser;
